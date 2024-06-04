@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+</head>
+<body>
+  <center>
+  <style>
+    .btn{
+      height:35px;
+      width:100px;
+      border-radius:8px;
+    }
+    .check{
+      height:15px;
+    }
+    .a{
+      border-radius:15px;
+      height:25px;
+      width:170px;
+      text-align:center;
+    }
+  .whole{
+    border:5px solid black;
+    height:800px;
+    width:400px;
+  }
+ 
+    .circle{
+      height:15px;
+      
+    }
+  .gender{
+    width:10px;
+   padding:5px;
+  }
+    
+
+  </style>
+<div class="whole">
+<h2>Registration Dashboard</h2>
+
+<form action="#" method="post">
+  <div>
+  <label for="name">First Name:</label><br>
+  <input class="a" type="text" id="name" name="name" required minlength="5"><br>
+
+  <label for="name">Last Name:</label><br>
+  <input class="a" type="text" id="lastname" name="lastname" required minlength="5"><br>
+<br><br>
+</div>
+  <label for ="Course">Course:</label>
+<select>
+    <option>BBS</option>
+    <option>B.Ed</option>
+    <option>BSc</option>
+    <option>B.A</option>
+    <option>BSW</option>
+    <option>BBA</option>
+    <option>BIM</option>
+    <option>BCA</option>
+    <option>BSc.Csit</option>
+  </select><br><br>
+
+
+    <label for="college">Input college name:</label><br>
+    <input class ="a" type ="text" name="text" id="text"><br>
+    <label for ="Gender">Gender:<br></label>
+    <input class="circle" type ="radio" name="male">
+    <label for ="Male">Male</label>
+   <input class="circle" type="radio" name="female">
+   <label for ="female">Female</label>
+   <input class="circle"type="radio" name="Other">
+   <label for ="radio">Other</label><br> 
+        
+<div><br>
+  <label for="number">Number:</label><br>
+  <input class="a"type="number" id="number" name="number" required minlength=10><br>
+
+  <label for="address">Address:</label><br>
+  <input class ="a" type="address" id="address" name="address" required><br>
+
+  <label for="email">Email:</label><br>
+  <input class="a" type="email" id="email" name="email" required><br>
+
+ 
+
+  <label for="password">Password:</label><br>
+  <input class="a" type="password" id="password" name="password" required minlength="8"><br>
+
+  <label for="confirm_password">Retype Password:</label><br>
+  <input class="a" type="password" id="confirm_password" name="confirm_password" required minlength="8" ><br><br>
+</div>
+  <label for="Subject">Enter the subject:</label><br>
+  <textarea id="comments" name="comments"></textarea>
+
+<br><br>
+<input class= "check" type="checkbox" name="checkbox"><br>
+  Recheck, the information is true?
+<br><br>
+
+<input class="btn" type="submit" value="Submit">
+</div>
+</center>
+</form>
+</body>
+</html>

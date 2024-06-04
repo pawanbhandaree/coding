@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes slideInLeft{
+from{
+transform:translateX(-300px);
+}
+to{
+transform:translateX(0);
+}
+        }
+        .heading{
+       
+         animation:slideInLeft 1s ease-in-out;
+        }
+        .heading1{
+       
+       animation:slideInLeft 2s linear;
+      }
+      .heading2{
+       
+       animation:slideInLeft 4s ease-out;
+      }
+      .rotate{
+        animation-name:rotate;
+        animation-timing-function:linear;
+        transform-origin:top left;
+      }
+      @keyframes bounce{
+        from{}
+        to{}
+      }
+      .bounce{
+        animation-name:bounce;
+      }
+    </style>
+</head>
+<body>
+   <h1 class="heading ">Hello,World!</h1>
+<h2 class="heading1 ">Hello,World!</h2>
+<h3 class="heading2">Hello,World!</h3>
+<h4 class="rotate">Hello,World!</h4>
+
+</body>
+</html>
